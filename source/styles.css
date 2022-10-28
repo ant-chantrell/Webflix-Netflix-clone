@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 1.625rem;
+}
+
+h5 {
+    font-size: 0.75rem;
+    padding-top: 10px;
+}
+
+input {
+    height: 3.5rem;
+    width: 70%;
+    font-size: 1rem;
+    text-indent: 10px;
+}
+
+button {
+    height: 3.8rem;
+    width: 30%;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.9)
+    ), url("images/bg.jpg");
+    background-size: 100vw;
+    width: 100%;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 8px solid #222;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 100vw;
+    flex: 0.5;
+}
+
+.left {
+    margin-left: 2rem;
+}
+
+.left > img {
+    width: 150px;
+    height: 50px;
+}
+
+.right {
+    display: flex;
+    margin-right: 2rem;
+}
+
+.right > select {
+    width: 100px;
+    height: 40px;
+    margin-right: 2rem;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.right > button {
+ width: 100px;
+ height: 40px;
+ font-size: 1.1rem;
+ border-radius: 2px;   
+}
+
+.header-content {
+    max-width: 45rem;
+    text-align: center;
+}
+
+.header-content > h3 {
+    margin-top: 1rem;
+}
+
+.get-started {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    width: 45rem;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    border-bottom: 8px solid #222;
+    justify-content: space-around;
+    width: 100vw;
+    height: 30rem;
+}
+
+.first-text {
+    width: 40%;
+    margin-left: 2rem;
+}
+
+.first-text > h3 {
+    margin-top: 1.5rem;
+}
+
+.first-animation {
+    position: relative;
+}
+
